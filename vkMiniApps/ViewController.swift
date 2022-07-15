@@ -32,31 +32,31 @@ class ViewController: UIViewController {
         // Get links
         switch sender {
             case vkLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "vk://"
                 linkSafari = "https://vk.com/"
             case mygamesLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "mygamesapp://"
                 linkSafari = "https://my.games/"
             case sferumLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "sferum://"
                 linkSafari = "https://sferum.ru/?p=start"
             case youlaLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "youla://"
                 linkSafari = "https://youla.ru/"
             case samokatLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "samokat://"
                 linkSafari = "https://samokat.ru/"
             case citidriveLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "citydrive://"
                 linkSafari = "https://citydrive.ru/"
             case cloudLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "cloudmailru://"
                 linkSafari = "https://cloud.mail.ru/home/"
             case aptekiLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "vseapteki://"
                 linkSafari = "https://vseapteki.ru/"
             case calendarLink:
-                linkApp = "vk://vk.com/"
+                linkApp = "calendarmail://"  // Существует только веб-версия
                 linkSafari = "https://calendar.mail.ru/"
             default:
                 return
